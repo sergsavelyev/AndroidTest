@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration"
+    android:background="@color/mainBG">
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginBottom="47dp"
+        android:backgroundTint="@color/noColor"
+        android:inputType="textCapCharacters"
+        android:onClick="toStartMenu"
+        android:text="У меня уже есть аккаунт"
+        android:textColor="@color/mainCinema"
+        android:textStyle="bold"
+        app:strokeColor="@color/mainCinema"
+        app:strokeWidth="1dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:layout_above="@+id/button4"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginBottom="7dp"
+        android:backgroundTint="@color/mainCinema"
+        android:inputType="textCapCharacters"
+        android:onClick="toMenu"
+        android:text="Зарегистрироваться"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/editTextTextPassword3"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/shape1"
+        android:ems="10"
+        android:hint="Пароль"
+        android:inputType="textPassword"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/grey" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword3"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginBottom="170dp"
+        android:background="@drawable/shape1"
+        android:ems="10"
+        android:hint="Повторите пароль"
+        android:inputType="textPassword"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/grey" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="285dp"
+        android:layout_height="278dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="56dp"
+        app:srcCompat="@drawable/ic_icon_ios_1024" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="325dp"
+        android:layout_height="91dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="65dp"
+        android:layout_marginTop="205dp"
+        android:layout_marginBottom="435dp"
+        android:background="@color/mainBG"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/mainCinema"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/editTextTextPassword2"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/shape1"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/grey" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress3"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/editTextTextEmailAddress"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/shape1"
+        android:ems="10"
+        android:hint="Фамилия"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/grey" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress4"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/editTextTextEmailAddress3"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/shape1"
+        android:ems="10"
+        android:hint="Имя"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/grey" />
+</RelativeLayout>
