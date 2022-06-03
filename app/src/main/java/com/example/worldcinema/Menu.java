@@ -16,6 +16,7 @@ public class Menu extends AppCompatActivity {
     public void toTheMagicians(View view) {
         Intent intent = new Intent(this, TheMagicians.class);
         startActivity(intent);
+        System.out.println("Hello World");
     }
 
     public void toProfile(View view) {
